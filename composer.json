@@ -1,0 +1,25 @@
+{
+    "name": "hycom/windows-azure-service-bus",
+    "description": "Library containing classes needed to handle Azure Service Bus message sending.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Patryk Lewczuk",
+            "email": "patryk.lewczuk@hycom.pl"
+        },
+        {
+            "name": "Amadeusz Schulz",
+            "email": "amadeusz.schulz@hycom.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "pear/net_url2": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "WindowsAzure\\": "src/"
+        }
+    }
+}
